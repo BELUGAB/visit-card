@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-image: url('drapeau.jpg');  /* Nom de ton image */
+    background-image: url('BG.jpg');  /* Nom de ton image */
     background-size: cover;  /* L'image couvre toute la page */
     background-position: center;  /* L'image est centrée */
     background-repeat: no-repeat;  /* Empêche la répétition de l'image */
@@ -12,9 +12,6 @@ body {
     overflow: hidden;
 }
 
-
-
-
 .card {
     background: #e0f7fa;  /* Bleu très clair */
     padding: 2rem;
@@ -24,7 +21,6 @@ body {
     width: 300px;
     animation: popIn 1s ease forwards;
 }
-
 
 .profile-pic img {
     width: 100px;

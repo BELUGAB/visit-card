@@ -32,14 +32,19 @@ body {
 
 h1 {
     font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;  /* Réduit l'espace sous le titre */
 }
 
 .title {
     font-size: 1rem;
     color: #888;
-    margin-bottom: 1rem;
+    margin-bottom: 0.3rem;  /* Réduit l'espace sous le sous-titre */
 }
+
+p {
+    margin-bottom: 0.3rem;  /* Réduit l'espace sous les paragraphes */
+}
+
 
 .buttons {
     display: flex;

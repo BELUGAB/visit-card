@@ -1,19 +1,17 @@
-/* styles.css */
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(90deg, 
-        #0055A4 33.33%,   /* Bleu du drapeau français */
-        #FFFFFF 33.33%,   /* Blanc du drapeau français */
-        #FFFFFF 66.66%,   /* Blanc du drapeau français */
-        #EF4135 66.66%    /* Rouge du drapeau français */
-    );
+    background-image: url('drapeau.jpg');  /* Nom de ton image */
+    background-size: cover;  /* L'image couvre toute la page */
+    background-position: center;  /* L'image est centrée */
+    background-repeat: no-repeat;  /* Empêche la répétition de l'image */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     overflow: hidden;
 }
+
 
 
 

@@ -18,7 +18,7 @@ body {
 
 
 .card {
-    background: white;
+    background: #e0f7fa;  /* Bleu très clair */
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -26,6 +26,7 @@ body {
     width: 300px;
     animation: popIn 1s ease forwards;
 }
+
 
 .profile-pic img {
     width: 100px;

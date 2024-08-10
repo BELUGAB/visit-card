@@ -5,9 +5,8 @@ body {
     background: linear-gradient(90deg, 
         #0055A4 33.33%,   /* Bleu du drapeau français */
         #FFFFFF 33.33%,   /* Blanc du drapeau français */
-        #FFFFFF 66.66%,   /* Blanc du drapeau brésilien (partagé) */
-        #009739 66.66%,   /* Vert du drapeau brésilien */
-        #FFCC29 100%      /* Jaune du drapeau brésilien */
+        #FFFFFF 66.66%,   /* Blanc du drapeau français */
+        #EF4135 66.66%    /* Rouge du drapeau français */
     );
     display: flex;
     justify-content: center;
@@ -15,6 +14,7 @@ body {
     height: 100vh;
     overflow: hidden;
 }
+
 
 
 .card {

@@ -2,13 +2,20 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(45deg, #ffafbd, #ffc3a0);
+    background: linear-gradient(90deg, 
+        #0055A4 33.33%,   /* Bleu du drapeau français */
+        #FFFFFF 33.33%,   /* Blanc du drapeau français */
+        #FFFFFF 66.66%,   /* Blanc du drapeau brésilien (partagé) */
+        #009739 66.66%,   /* Vert du drapeau brésilien */
+        #FFCC29 100%      /* Jaune du drapeau brésilien */
+    );
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     overflow: hidden;
 }
+
 
 .card {
     background: white;

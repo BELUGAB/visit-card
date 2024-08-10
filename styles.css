@@ -23,8 +23,8 @@ body {
 }
 
 .profile-pic img {
-    width: 200px;  /* Augmente la largeur de l'image */
-    height: 200px; /* Augmente la hauteur de l'image */
+    width: 150px;  /* Augmente la largeur de l'image */
+    height: 150px; /* Augmente la hauteur de l'image */
     border-radius: 50%;  /* Conserve l'image en forme ronde */
     object-fit: cover;  /* S'assure que l'image reste bien cadrée */
     margin-bottom: 1rem;

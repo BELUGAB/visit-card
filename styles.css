@@ -112,3 +112,10 @@ p {
         opacity: 1;
     }
 }
+@media (max-width: 480px) {
+    .social-button {
+        width: 90px; /* Réduit la largeur sur les très petits écrans */
+        height: 90px; /* Réduit la hauteur sur les très petits écrans */
+    }
+}
+

@@ -54,25 +54,23 @@ p {
 }
 
 .social-button {
-    padding: 15px;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 10px; /* Coins arrondis pour chaque bouton */
-    color: white;
-    cursor: pointer;
-    transition: transform 0.3s, background-color 0.3s;
+    padding: 0;  /* Supprime le padding */
+    border: none;  /* Supprime la bordure */
+    background: none;  /* Supprime tout fond */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%; /* Permet au bouton d'occuper la largeur disponible */
-    max-width: 120px; /* Limite la taille maximale pour une bonne apparence */
-    height: 100px; /* Taille fixe en hauteur */
+    width: 70px;  /* Ajuste la taille du bouton selon la taille de l'icône */
+    height: 70px;
+    transition: transform 0.3s;
 }
 
 .social-button img.icon {
-    width: 40px;  /* Taille des icônes */
-    height: 40px; /* Taille des icônes */
+    width: 50px;  /* Taille de l'icône */
+    height: 50px;
+    border-radius: 50%;  /* Arrondit les coins de l'image pour correspondre au bouton */
 }
+
 
 
 .tiktok {

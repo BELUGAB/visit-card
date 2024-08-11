@@ -85,6 +85,12 @@ p {
 .phone {
     background-color: #34B7F1;
 }
+.icon {
+    width: 24px;  /* Taille des icônes */
+    height: 24px; /* Taille des icônes */
+    vertical-align: middle;
+}
+
 
 @keyframes popIn {
     0% {

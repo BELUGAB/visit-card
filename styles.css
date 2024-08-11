@@ -48,7 +48,7 @@ p {
 .buttons {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adapte le nombre de colonnes */
-    gap: 10px; /* Espace entre les boutons */
+    gap: 0px; /* Espace entre les boutons */
     justify-items: center; /* Centrer les boutons horizontalement */
     margin-top: 1rem;
 }
@@ -63,36 +63,16 @@ p {
     width: 70px;  /* Ajuste la taille du bouton selon la taille de l'icône */
     height: 70px;
     transition: transform 0.3s;
+    
 }
 
 .social-button img.icon {
-    width: 50px;  /* Taille de l'icône */
-    height: 50px;
-    border-radius: 50%;  /* Arrondit les coins de l'image pour correspondre au bouton */
+    width: 70px;  /* Taille de l'icône */
+    height: 70px;
+    object-fit: cover;
+    border-radius: 20%;  /* Arrondit les coins de l'image pour correspondre au bouton */
 }
 
-
-
-.tiktok {
-    background-color: #69C9D0;
-}
-
-.instagram {
-    background-color: #E1306C;
-}
-
-.snapchat {
-    background-color: #FFFC00;
-    color: #000;
-}
-
-.linkedin {
-    background-color: #0077B5;
-}
-
-.phone {
-    background-color: #34B7F1;
-}
 .icon {
     width: 24px;  /* Taille des icônes */
     height: 24px; /* Taille des icônes */
@@ -116,4 +96,3 @@ p {
         height: 90px; /* Réduit la hauteur sur les très petits écrans */
     }
 }
-
